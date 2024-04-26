@@ -4,7 +4,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="GetStartedApp.MainWindow"
-        Title="Ubober">
+        Title="Ubober"
+        Background = "Black">
     <DockPanel Background = "#B14AED"
             HorizontalAlignment = "Stretch"
             VerticalAlignment = "Top"
@@ -12,9 +13,19 @@
             <DockPanel Background = "#96C5F7"
                        Height = "40"
                        HorizontalAlignment = "Stretch">
-                    <TextBlock Background = "#96C5F7" Margin = "0 10">Home</TextBlock>
+                    <TextBlock Margin = "0 10">Home</TextBlock>
+                    <TextBlock Margin = "11 10">About</TextBlock>
+                    <TextBlock Margin = "11 10">Blog's Main Topic 1</TextBlock>
+                    <TextBlock Margin = "11 10">Blog's Main Topic 2</TextBlock>
+                    <TextBlock Margin = "11 10">Blog's Main Topic 3</TextBlock>
+                    <TextBlock Margin = "11 10">Associated Blogs</TextBlock>
+                    <TextBlock Margin = "0 10 5 0" TextAlignment = "Right">RSS</TextBlock>
             </DockPanel>
     </DockPanel>
+
+    <StackPanel Background = "#6C756B">
+      
+    </StackPanel>
 
 </Window>
 

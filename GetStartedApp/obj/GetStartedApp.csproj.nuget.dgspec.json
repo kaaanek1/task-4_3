@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/Документы/task4_3/GetStartedApp/GetStartedApp.csproj": {}
+    "C:\\Users\\Asus PC\\Documents\\Programming\\VSCode_C#\\task4-3\\GetStartedApp\\GetStartedApp.csproj": {}
   },
   "projects": {
-    "/home/user/Документы/task4_3/GetStartedApp/GetStartedApp.csproj": {
+    "C:\\Users\\Asus PC\\Documents\\Programming\\VSCode_C#\\task4-3\\GetStartedApp\\GetStartedApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/Документы/task4_3/GetStartedApp/GetStartedApp.csproj",
+        "projectUniqueName": "C:\\Users\\Asus PC\\Documents\\Programming\\VSCode_C#\\task4-3\\GetStartedApp\\GetStartedApp.csproj",
         "projectName": "GetStartedApp",
-        "projectPath": "/home/user/Документы/task4_3/GetStartedApp/GetStartedApp.csproj",
-        "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/Документы/task4_3/GetStartedApp/obj/",
+        "projectPath": "C:\\Users\\Asus PC\\Documents\\Programming\\VSCode_C#\\task4-3\\GetStartedApp\\GetStartedApp.csproj",
+        "packagesPath": "C:\\Users\\Asus PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus PC\\Documents\\Programming\\VSCode_C#\\task4-3\\GetStartedApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Asus PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -65,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -74,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
