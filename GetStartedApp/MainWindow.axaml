@@ -6,27 +6,44 @@
         x:Class="GetStartedApp.MainWindow"
         Title="Ubober"
         Background = "Black">
-    <DockPanel Background = "#B14AED"
-            HorizontalAlignment = "Stretch"
-            VerticalAlignment = "Top"
-            Height = "50">    
-            <DockPanel Background = "#96C5F7"
+    <Grid Background = "#B14AED"
+          RowDefinitions = "auto, *"
+          ColumnDefinitions = "*, *">    
+            <DockPanel Background = "Purple"
                        Height = "40"
-                       HorizontalAlignment = "Stretch">
+                       HorizontalAlignment = "Stretch"
+                       Grid.Row = "0"
+                       Grid.ColumnSpan = "2">
                     <TextBlock Margin = "0 10">Home</TextBlock>
                     <TextBlock Margin = "11 10">About</TextBlock>
                     <TextBlock Margin = "11 10">Blog's Main Topic 1</TextBlock>
-                    <TextBlock Margin = "11 10">Blog's Main Topic 2</TextBlock>
                     <TextBlock Margin = "11 10">Blog's Main Topic 3</TextBlock>
                     <TextBlock Margin = "11 10">Associated Blogs</TextBlock>
                     <TextBlock Margin = "0 10 5 0" TextAlignment = "Right">RSS</TextBlock>
             </DockPanel>
-    </DockPanel>
 
-    <StackPanel Background = "#6C756B">
-      
-    </StackPanel>
+                <StackPanel Grid.Row = "1"
+                        Grid.Column = "0"
+                        Background = "#B14AED"
+                        Orientation="Vertical">
+                <TextBlock TextWrapping = "Wrap" Margin = "0 10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nibh ipsum, finibus vel accumsan sit amet, facilisis quis dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras massa ante, facilisis at semper vel, suscipit a elit. Vestibulum sit amet volutpat tellus. Integer gravida congue consequat. Nam pellentesque nibh libero, a interdum diam efficitur quis. In iaculis turpis ut molestie pretium.
 
+        Vestibulum felis ipsum, ultricies ac arcu nec, aliquam consectetur magna. Proin at iaculis risus. Pellentesque sit amet auctor massa, vitae commodo enim. Sed vitae ex egestas, tincidunt nunc et, pulvinar dolor. Nulla lacinia sem in libero gravida fringilla interdum sit amet lorem. Etiam fringilla magna nisi, in ornare orci interdum vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis sapien mi, vitae eleifend neque feugiat in. Nunc vehicula sem leo, at lobortis sem iaculis id.
+
+        Donec hendrerit ullamcorper nunc, sed gravida erat lacinia in. Suspendisse ultricies varius mauris, nec euismod ante dignissim vel. Proin sed magna quis lectus ornare pretium. Maecenas tempus rhoncus risus et suscipit. Morbi hendrerit felis a ultricies interdum. Cras pretium, ex vulputate auctor tincidunt, mi nibh feugiat erat, eget lacinia velit urna ut nisl. Sed ornare tempus felis, non dapibus nibh iaculis non. Cras lacinia orci a vulputate commodo. Morbi sagittis tincidunt dui, a pretium justo lobortis a. Phasellus malesuada pharetra porttitor. Phasellus magna mi, viverra a dolor eu, malesuada pretium magna.
+
+        Integer pulvinar dolor id ipsum bibendum, id interdum felis luctus. Integer et ligula a nisi ultricies fringilla eu quis tellus. Integer tincidunt purus ac vulputate pharetra. Donec lobortis sed lacus eu eleifend. Quisque efficitur fringilla tortor ut faucibus. Duis at orci placerat, porttitor mauris id, interdum mi. Integer et turpis nunc. Nunc tincidunt lorem eget laoreet fringilla. In vel ipsum eu ante condimentum sagittis quis nec eros. Morbi efficitur nibh sed dolor efficitur porttitor. Sed ut suscipit turpis. Quisque eu ex bibendum, malesuada nibh sed, cursus diam. Sed suscipit est nec sapien semper, scelerisque consequat elit dignissim. Ut sem tortor, suscipit nec lacus facilisis, bibendum sagittis eros. Etiam consectetur pulvinar neque.
+
+        Pellentesque rhoncus iaculis sollicitudin. Curabitur sagittis diam quis felis euismod, in egestas neque blandit. Nam id ipsum nulla. Suspendisse potenti.
+        In hac habitasse platea dictumst. Proin et velit sit amet lorem fringilla sollicitudin. Donec dictum, est sit amet commodo pellentesque, mauris metus vulputate velit, quis consectetur lectus odio nec augue. Duis feugiat nulla id tempus ornare. Cras vel viverra erat. In eleifend turpis in ligula mollis, sit amet blandit felis aliquam. Morbi vehicula egestas sem, a consectetur nisl vehicula vel. Ut at diam id elit posuere tempus at vel est. Fusce vehicula eget turpis ut aliquam. Aliquam maximus tincidunt sagittis. Maecenas sed tincidunt ligula. Donec nec ex a ligula gravida ultricies a vel diam.</TextBlock>
+                <TextBlock>Tags: Tag1 Tag2 Tag3 Tag4</TextBlock>
+                </StackPanel>
+                        
+                <StackPanel Grid.Row = "1"
+                        Grid.Column = "1"
+                        Background = "#B14AED">
+                </StackPanel>
+    </Grid>
 </Window>
 
 
